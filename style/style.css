@@ -72,16 +72,18 @@ section {
     
 }
 .section-3 .text {
-    width: 60%;
+    width: 65%;
     margin-left: 126px;
 }
 .section-3 .text .title {
     font-size: 64px;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 16px;
     color: white;
     font-family: 'Merriweather';
     margin-bottom: 24px;
+    line-height: 88px;
+    letter-spacing: 11px;
 }
 .section-3 .text .subtitle {
     font-size: 18px;
@@ -99,10 +101,11 @@ section {
     color: white;
     border: none;
     background: transparent;
+    padding-left: 30px;
 }
 .section-3 .background {
     background: url(../images/Group\ 70.png);
-    width: 40%;
+    width: 35%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: right;
