@@ -137,16 +137,76 @@ section {
     padding: 16px 32px;
 
 }
-.place, .date, .time {
+.section-4 .place, .date, .time {
     text-align: center;
     font-size: 32px;
     font-weight: 600;
     margin: 16px;
 }
-.btn {
+.section-4 .btn {
     text-align: center;
     margin-top: 48px;
 }
-.place-spn, .date-spn, .time-spn {
+.section-4 .place-spn, .date-spn, .time-spn {
     color: red;
+}
+.section-5 {
+    height: 463px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-5 .text-1 {
+    width: 30%;
+    margin: auto;
+    margin-right: 70px;
+}
+.section-5 .text-1 .subtitle {
+    color: red;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 24px;
+}
+.section-5 .text-1 .title {
+    font-family: 'Merriweather';
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.section-5 .text-1 .description {
+    font-family: 'inter';
+    font-size: 20px;
+    opacity: .6;
+}
+.section-5 .image-div {
+    width: 445px;
+    height: 445px;
+    border: 15px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5 .image-div .img {
+    height: 364px;
+    width: 364px;
+}
+.section-5 .text-2 {
+    width: 20%;
+    margin: auto;
+    margin-left: 118px;
+}
+.section-5 .text-2 .title {
+    color: red;
+    font-family: 'inter';
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.section-5 .text-2 .description {
+    font-family: 'inter';
+    font-size: 20px;
+    opacity: .6;
+    margin-bottom: 48px;
 }
