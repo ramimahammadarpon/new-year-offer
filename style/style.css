@@ -33,3 +33,30 @@ section {
     font-size: 72px;
     margin-top: 16px;
 }
+.section-2 {
+    background: url(../images/New\ Year\ Photo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 803px;
+    height: 806px;
+    font-family: 'inter';
+}
+.section-2 .off {
+    text-align: center;
+    color: #FF0000;
+    font-size: 88px;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+.section-2 .subtitle {
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 400;
+    text-align: center;
+}
+.section-2 .title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+}
